@@ -1,0 +1,6 @@
+IGNORE
+
+
+steps:
+1. created our frontend folder
+2. created webpack config and pasted previous data

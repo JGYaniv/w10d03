@@ -1,0 +1,65 @@
+.tile {
+    display:flex;
+    width: 25px;
+    border: outset;
+    list-style: none;
+    height: 25px;
+    box-sizing: border-box;
+}
+
+.tile p {
+    margin: auto;
+}
+
+.board {
+    display: flex;
+    width: 200px;
+    line-height: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.reveal {
+    border: inset;
+    background-color: lightgray;
+}
+
+.bomb {
+    background-image: url("https://media1.giphy.com/media/ahza0v6s5pSxy/source.gif");
+    background-size: cover;
+}
+
+.flag {
+    background-image: url("https://project.wnyc.org/election-guide-2016-general/img/flagwave-sparkle.gif");
+    background-size: cover;
+}
+
+.hidden{
+    display: none;
+}
+
+.modal{
+    display: block;
+}
+
+.modal-screen {
+    position: fixed;
+    top: 0px;
+    /* bottom: 0px; */
+    left: 0px;
+    right: 0px;
+    /* z-index: 2; */
+    background-color: rgba(0,0,0,0.3);
+}
+
+.modal-form{
+    padding: 20px 20px 30px 20px;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    line-height: 1;
+    min-width: 350px;
+    background-color:  rgba(255,255,255,0.7);
+}
+
+
